@@ -1,0 +1,26 @@
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+cv_env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# YOLO model weights
+*.pt
+
+# Generated videos
+output/
+outputs/
+runs/
+
+# Temporary files
+*.tmp
